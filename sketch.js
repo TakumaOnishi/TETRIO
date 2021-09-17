@@ -339,7 +339,7 @@ function draw(){
         text("processing/P5.js", 68, 87);
         text("inspired by", 60, 111);
         text("ko aoki", 67, 119);
-        text("bgm by", 60, 143);
+        text("bgm mixed by", 60, 143);
         text("maretu", 67, 151);
         text("apologizing to", 60, 175);
         text("nintendo", 68, 183);
@@ -452,8 +452,18 @@ function draw(){
         text("ALL", 117, 103);
         text("WORLD CLEAR!", 85, 119);
       }else if(congrats == 13){
-        text("TETRIO", 106, 103);
-        text("BY TAKUMA ONISHI", 65, 119);
+        text("made by", 60, 47);
+        text("takuma onishi", 68, 55);
+        text("with", 60, 79);
+        text("processing/P5.js", 68, 87);
+        text("inspired by", 60, 111);
+        text("ko aoki", 67, 119);
+        text("bgm mixed by", 60, 143);
+        text("maretu", 67, 151);
+        text("apologizing to", 60, 175);
+        text("nintendo", 68, 183);
+        text("tetris hldg.", 68, 191);
+        text("one of 0414.works", 60, 215);
       }else if(congrats == 14){
         text("SCORE", 109, 71);
         text("TOTAL", 80, 169);
