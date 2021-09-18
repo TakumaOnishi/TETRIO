@@ -1422,15 +1422,13 @@ function restart(){
     Grid[2][13]=12;
     Grid[15][1]=13;
     Grid[3][11]=7;
-    for(let x = 6; x <= 11; x++){
+    for(let x = 6; x <= 10; x++){
       Grid[x][5]=1;
     }
     Grid[11][4]=1;
-    Grid[12][4]=1;
-    for(let x = 4; x <= 7; x++){
-      Grid[x][10]=1;
-    }
-    Grid[4][11]=1;
+    Grid[12][3]=1;
+    Grid[4][10]=1;
+    Grid[5][10]=1;
     mx = 16;
    
   }else if(world == 8){
